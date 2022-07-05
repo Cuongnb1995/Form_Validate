@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.error input {
+    border: 1px solid red;
+    background-color: rgb(252, 232, 235);
+}
+.error small {
+    color: rgb(216, 2, 2);
+} 
+.success input {
+    border: 1px solid green;
+}
+
+#form input:focus {
+    outline: unset;
+}
+
+form {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 350px;
+    height: fit-content;
+    margin: auto;
+    padding: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: white;
+}
+
+.form-title {
+    text-align: center;
+    padding: 8px 0;
+}
+.form-title h2 {
+    font-size: 18px;
+    padding: 8px 0;
+}
+.form-title p {
+    font-size: 14px;
+    padding: 8px 0;
+    color: rgb(117, 117, 117);
+}
+.form-field {
+    padding: 8px 0 0;
+}
+.form-field label{
+    display: block;
+    font-weight: bold;
+}
+
+.form-field input {
+    padding: 8px;
+    width: 100%;
+    margin: 4px 0;
+    display: block;
+}
+
+.form-field button {
+    margin-top: 24px;
+    padding: 12px;
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    background-color: #16867A;
+    color: white;
+}
+
+.form-field {
+    position: relative;
+}
+#password-visibility {
+    position: absolute;
+    top: 38px;
+    right: 10px;
+}
